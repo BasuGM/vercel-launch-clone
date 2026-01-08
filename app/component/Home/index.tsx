@@ -8,6 +8,9 @@ import CloudInfoSection from "../CloudInfoSection";
 import SupportSection from "../SupportSection";
 import EnterpriseSection from "../EnterpriseSection";
 import PartialPrerenderingSection from "../PartialPrerenderingSection";
+import DeploySection from "../DeploySection";
+import CTASection from "../CTASection";
+import Footer from "../Footer";
 
 export default function Home() {
   return (
@@ -21,7 +24,10 @@ export default function Home() {
         <SupportSection />
         <EnterpriseSection />
         <PartialPrerenderingSection />
+        <DeploySection />
+        <CTASection />
       </main>
+      <Footer />
     </>
   );
 }
