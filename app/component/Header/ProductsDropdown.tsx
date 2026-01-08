@@ -12,6 +12,12 @@ import { MdOutlineSpeed } from "react-icons/md";
 import DropdownItem from "../common/DropdownItem";
 import DropdownSection from "../common/DropdownSection";
 
+/**
+ * ProductsDropdown component displaying Vercel's product offerings in a dropdown menu
+ * Features three sections: AI Cloud (v0, AI SDK, AI Gateway, etc.), Core Platform (CI/CD, Content Delivery, etc.),
+ * and Security (Bot Management, BotID, Platform Security, etc.)
+ * Appears on hover of the Products navigation item
+ */
 export default function ProductsDropdown() {
   return (
     <div className="absolute top-full left-0 mt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">

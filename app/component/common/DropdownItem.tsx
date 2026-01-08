@@ -1,5 +1,10 @@
 import { IconType } from "react-icons";
 
+/**
+ * DropdownItem component - Individual item within dropdown menus
+ * Features icon that transitions to white on black background when hovered
+ * Displays title and description with smooth hover animations
+ */
 export default function DropdownItem({
   icon: Icon,
   title,

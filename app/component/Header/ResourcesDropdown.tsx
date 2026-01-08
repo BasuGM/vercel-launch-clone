@@ -11,6 +11,12 @@ import { SiNextdotjs, SiNuxtdotjs, SiSvelte, SiTurborepo } from "react-icons/si"
 import DropdownItem from "../common/DropdownItem";
 import DropdownSection from "../common/DropdownSection";
 
+/**
+ * ResourcesDropdown component displaying Vercel's resources in a dropdown menu
+ * Features three sections: Company (Customers, Blog, Changelog, Press, Events),
+ * Learn (Docs, Academy, Knowledge Base, Community), and Open Source (Next.js, Nuxt, Svelte, Turborepo)
+ * Appears on hover of the Resources navigation item
+ */
 export default function ResourcesDropdown() {
   return (
     <div className="absolute top-full left-0 mt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">

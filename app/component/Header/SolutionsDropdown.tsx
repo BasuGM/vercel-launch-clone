@@ -13,6 +13,12 @@ import {
 import DropdownItem from "../common/DropdownItem";
 import DropdownSection from "../common/DropdownSection";
 
+/**
+ * SolutionsDropdown component displaying Vercel's solutions in a dropdown menu
+ * Features three sections: Use Cases (AI Apps, Composable Commerce, Marketing Sites, etc.),
+ * Tools (Marketplace, Templates, Partner Finder), and Users (Platform Engineers, Design Engineers)
+ * Appears on hover of the Solutions navigation item
+ */
 export default function SolutionsDropdown() {
   return (
     <div className="absolute top-full left-0 mt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">

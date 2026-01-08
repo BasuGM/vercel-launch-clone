@@ -1,3 +1,8 @@
+/**
+ * DropdownSection component - Section container for grouping dropdown items
+ * Displays uppercase section title with consistent spacing
+ * Used to organize dropdown content into logical groups
+ */
 export default function DropdownSection({
   title,
   children,

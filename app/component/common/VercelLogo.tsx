@@ -1,3 +1,8 @@
+/**
+ * VercelLogo component - Scalable Vercel wordmark logo
+ * Maintains aspect ratio (262:52) while scaling to specified size
+ * Default size is 262px width
+ */
 export default function VercelLogo({ size = 262 }: { size?: number }) {
   return (
     <svg
